@@ -1,0 +1,9 @@
+This package is a plugin to the OccupancyMapUpdater class of moveit.
+
+It allows moveit to use an externally computed binary octomap.
+
+It works by simply replacing the (eventual) content of the internal octree by the content of the message.
+So it would not really work alongside another plugin like the PointCloudOctomapUpdater...
+
+
+This plugin has been done as a quick and dirty hack so if you want to contribute, correct errors... please do.
