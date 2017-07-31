@@ -12,6 +12,7 @@ link_directories(${Boost_LIBRARY_DIRS})
 
 find_package(catkin COMPONENTS
   moveit_core
+  moveit_ros_perception
   pluginlib
   actionlib
   roscpp
