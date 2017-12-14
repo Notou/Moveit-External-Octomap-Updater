@@ -7,22 +7,12 @@ endif()
 
 add_definitions(-std=c++11)
 
-find_package(Boost REQUIRED thread)
-link_directories(${Boost_LIBRARY_DIRS})
 
 find_package(catkin COMPONENTS
   moveit_core
   moveit_ros_perception
   pluginlib
-  actionlib
   roscpp
-  control_msgs
-  cmake_modules
-  geometry_msgs
-  glog_catkin
-  mav_msgs
-  sensor_msgs
-  planning_msgs
   tf
   REQUIRED
   octomap_ros)

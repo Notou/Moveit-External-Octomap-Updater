@@ -18,7 +18,6 @@
   <build_depend>message_filters</build_depend>
   <build_depend>octomap_ros</build_depend>
   <build_depend>pluginlib</build_depend>
-  <build_depend>sensor_msgs</build_depend>
   <build_depend>octomap_msgs</build_depend>
   <build_depend>moveit_msgs</build_depend>
   <build_depend>moveit_ros_perception</build_depend>
@@ -32,7 +31,6 @@
 <run_depend>message_filters</run_depend>
 <run_depend>octomap_ros</run_depend>
 <run_depend>pluginlib</run_depend>
-<run_depend>sensor_msgs</run_depend>
 <run_depend>octomap_msgs</run_depend>
 <run_depend>moveit_msgs</run_depend>
 <run_depend>moveit_ros_perception</run_depend>
